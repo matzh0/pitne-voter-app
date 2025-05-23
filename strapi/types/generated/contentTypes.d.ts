@@ -362,6 +362,39 @@ export interface AdminUser extends Schema.CollectionType {
   };
 }
 
+export interface ApiAboutUsAboutUs extends Schema.CollectionType {
+  collectionName: 'about_uses';
+  info: {
+    description: '';
+    displayName: 'AboutUs';
+    pluralName: 'about-uses';
+    singularName: 'about-us';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::about-us.about-us',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    FlipSide: Attribute.String & Attribute.Required;
+    publishedAt: Attribute.DateTime;
+    Spark: Attribute.String;
+    updatedAt: Attribute.DateTime;
+    updatedBy: Attribute.Relation<
+      'api::about-us.about-us',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    Yawu: Attribute.String & Attribute.Required;
+  };
+}
+
 export interface ApiBallotInitiativeBallotInitiative
   extends Schema.CollectionType {
   collectionName: 'ballot_initiatives';
@@ -439,6 +472,7 @@ export interface ApiBostonMunicipalElectionDateBostonMunicipalElectionDate
     ElectionDate: Attribute.Date;
     ElectionName: Attribute.String;
     publishedAt: Attribute.DateTime;
+    RegistrationDate: Attribute.Date;
     updatedAt: Attribute.DateTime;
     updatedBy: Attribute.Relation<
       'api::boston-municipal-election-date.boston-municipal-election-date',
@@ -990,6 +1024,7 @@ declare module '@strapi/types' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
+      'api::about-us.about-us': ApiAboutUsAboutUs;
       'api::ballot-initiative.ballot-initiative': ApiBallotInitiativeBallotInitiative;
       'api::boston-municipal-election-date.boston-municipal-election-date': ApiBostonMunicipalElectionDateBostonMunicipalElectionDate;
       'api::candidate-role.candidate-role': ApiCandidateRoleCandidateRole;

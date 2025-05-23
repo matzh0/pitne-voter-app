@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FlipSide": {
+      "type": "string",
+      "required": true
+    },
+    "Yawu": {
+      "type": "string",
+      "required": true
+    },
+    "Spark": {
+      "type": "string"
+    }
+  }
+}

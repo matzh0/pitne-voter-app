@@ -1,0 +1,700 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "attributes": {
+                "Name": "Julia Mejia",
+                "Role": "City Councilors",
+                "CampaignSiteLink": "https://www.juliaforboston.com/",
+                "LinkedinLink": "https://www.linkedin.com/in/julia-mejia-52a05216b/",
+                "createdAt": "2024-06-21T13:51:19.812Z",
+                "updatedAt": "2025-04-15T20:22:17.737Z",
+                "publishedAt": "2024-06-21T13:51:23.367Z",
+                "Question1": "What is the plan for Mass and Cass?",
+                "Answer1": "Work with the legislature, Boston city departments and community and religious leaders to address the issue. Provide shelter to help get the homeless off the street. Bring treatment and services to the area for drug users and the mentally ill.",
+                "Question2": "How will you endorse Parental Rights?",
+                "Answer2": "Work with the legislature, Boston city departments and community and religious leaders to address the issue. Provide shelter to help get the homeless off the street. Bring treatment and services to the area for drug users and the mentally ill.",
+                "Question3": "Violence is increasing in Boston, how do you plan to ensure a safe environment?",
+                "Answer3": "Work with the legislature, Boston city departments and community and religious leaders to address the issue. Provide shelter to help get the homeless off the street. Bring treatment and services to the area for drug users and the mentally ill.",
+                "Question4": "What are key initiatives to improve the education system within the community?",
+                "Answer4": "Work with the legislature, Boston city departments and community and religious leaders to address the issue. Provide shelter to help get the homeless off the street. Bring treatment and services to the area for drug users and the mentally ill.",
+                "Question5": null,
+                "Answer5": null,
+                "Question6": null,
+                "Answer6": null,
+                "Question7": null,
+                "Answer7": null,
+                "Question8": null,
+                "Answer8": null,
+                "Question9": null,
+                "Answer9": null,
+                "Question10": null,
+                "Answer10": null,
+                "District": "All District",
+                "Party": null,
+                "ElectionName": null,
+                "Headshot": {
+                    "data": {
+                        "id": 37,
+                        "attributes": {
+                            "name": "julia_mejia.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 659,
+                            "height": 615,
+                            "formats": {
+                                "small": {
+                                    "ext": ".png",
+                                    "url": "/uploads/small_julia_mejia_a295b5a11c.png",
+                                    "hash": "small_julia_mejia_a295b5a11c",
+                                    "mime": "image/png",
+                                    "name": "small_julia_mejia.png",
+                                    "path": null,
+                                    "size": 464.82,
+                                    "width": 500,
+                                    "height": 467,
+                                    "sizeInBytes": 464819
+                                },
+                                "thumbnail": {
+                                    "ext": ".png",
+                                    "url": "/uploads/thumbnail_julia_mejia_a295b5a11c.png",
+                                    "hash": "thumbnail_julia_mejia_a295b5a11c",
+                                    "mime": "image/png",
+                                    "name": "thumbnail_julia_mejia.png",
+                                    "path": null,
+                                    "size": 63.96,
+                                    "width": 167,
+                                    "height": 156,
+                                    "sizeInBytes": 63958
+                                }
+                            },
+                            "hash": "julia_mejia_a295b5a11c",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 168.32,
+                            "url": "/uploads/julia_mejia_a295b5a11c.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-03-02T23:46:02.544Z",
+                            "updatedAt": "2025-03-02T23:46:02.544Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 11,
+            "attributes": {
+                "Name": "Josh Kraft",
+                "Role": "Mayor",
+                "CampaignSiteLink": "https://joshforboston.com/",
+                "LinkedinLink": null,
+                "createdAt": "2025-02-27T00:48:19.719Z",
+                "updatedAt": "2025-04-14T18:53:03.965Z",
+                "publishedAt": "2025-02-27T16:27:58.649Z",
+                "Question1": null,
+                "Answer1": null,
+                "Question2": null,
+                "Answer2": null,
+                "Question3": null,
+                "Answer3": null,
+                "Question4": null,
+                "Answer4": null,
+                "Question5": null,
+                "Answer5": null,
+                "Question6": null,
+                "Answer6": null,
+                "Question7": null,
+                "Answer7": null,
+                "Question8": null,
+                "Answer8": null,
+                "Question9": null,
+                "Answer9": null,
+                "Question10": null,
+                "Answer10": null,
+                "District": "All District",
+                "Party": null,
+                "ElectionName": null,
+                "Headshot": {
+                    "data": {
+                        "id": 36,
+                        "attributes": {
+                            "name": "josh_kraft.jpg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 900,
+                            "height": 1000,
+                            "formats": {
+                                "small": {
+                                    "ext": ".jpg",
+                                    "url": "/uploads/small_josh_kraft_b689288e5b.jpg",
+                                    "hash": "small_josh_kraft_b689288e5b",
+                                    "mime": "image/jpeg",
+                                    "name": "small_josh_kraft.jpg",
+                                    "path": null,
+                                    "size": 35.01,
+                                    "width": 450,
+                                    "height": 500,
+                                    "sizeInBytes": 35014
+                                },
+                                "medium": {
+                                    "ext": ".jpg",
+                                    "url": "/uploads/medium_josh_kraft_b689288e5b.jpg",
+                                    "hash": "medium_josh_kraft_b689288e5b",
+                                    "mime": "image/jpeg",
+                                    "name": "medium_josh_kraft.jpg",
+                                    "path": null,
+                                    "size": 77.98,
+                                    "width": 675,
+                                    "height": 750,
+                                    "sizeInBytes": 77977
+                                },
+                                "thumbnail": {
+                                    "ext": ".jpg",
+                                    "url": "/uploads/thumbnail_josh_kraft_b689288e5b.jpg",
+                                    "hash": "thumbnail_josh_kraft_b689288e5b",
+                                    "mime": "image/jpeg",
+                                    "name": "thumbnail_josh_kraft.jpg",
+                                    "path": null,
+                                    "size": 4.73,
+                                    "width": 140,
+                                    "height": 156,
+                                    "sizeInBytes": 4732
+                                }
+                            },
+                            "hash": "josh_kraft_b689288e5b",
+                            "ext": ".jpg",
+                            "mime": "image/jpeg",
+                            "size": 135.07,
+                            "url": "/uploads/josh_kraft_b689288e5b.jpg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-03-02T23:43:22.473Z",
+                            "updatedAt": "2025-03-02T23:43:22.473Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 10,
+            "attributes": {
+                "Name": "Michelle Wu",
+                "Role": "Mayor",
+                "CampaignSiteLink": "https://www.michelleforboston.com/",
+                "LinkedinLink": null,
+                "createdAt": "2025-02-27T00:44:53.442Z",
+                "updatedAt": "2025-04-14T18:53:20.819Z",
+                "publishedAt": "2025-02-27T16:27:28.526Z",
+                "Question1": null,
+                "Answer1": null,
+                "Question2": null,
+                "Answer2": null,
+                "Question3": null,
+                "Answer3": null,
+                "Question4": null,
+                "Answer4": null,
+                "Question5": null,
+                "Answer5": null,
+                "Question6": null,
+                "Answer6": null,
+                "Question7": null,
+                "Answer7": null,
+                "Question8": null,
+                "Answer8": null,
+                "Question9": null,
+                "Answer9": null,
+                "Question10": null,
+                "Answer10": null,
+                "District": "All District",
+                "Party": null,
+                "ElectionName": null,
+                "Headshot": {
+                    "data": {
+                        "id": 29,
+                        "attributes": {
+                            "name": "michelle we.jpeg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 1920,
+                            "height": 2400,
+                            "formats": {
+                                "large": {
+                                    "ext": ".jpeg",
+                                    "url": "/uploads/large_michelle_we_1791b76bde.jpeg",
+                                    "hash": "large_michelle_we_1791b76bde",
+                                    "mime": "image/jpeg",
+                                    "name": "large_michelle we.jpeg",
+                                    "path": null,
+                                    "size": 60.88,
+                                    "width": 800,
+                                    "height": 1000,
+                                    "sizeInBytes": 60884
+                                },
+                                "small": {
+                                    "ext": ".jpeg",
+                                    "url": "/uploads/small_michelle_we_1791b76bde.jpeg",
+                                    "hash": "small_michelle_we_1791b76bde",
+                                    "mime": "image/jpeg",
+                                    "name": "small_michelle we.jpeg",
+                                    "path": null,
+                                    "size": 19.05,
+                                    "width": 400,
+                                    "height": 500,
+                                    "sizeInBytes": 19053
+                                },
+                                "medium": {
+                                    "ext": ".jpeg",
+                                    "url": "/uploads/medium_michelle_we_1791b76bde.jpeg",
+                                    "hash": "medium_michelle_we_1791b76bde",
+                                    "mime": "image/jpeg",
+                                    "name": "medium_michelle we.jpeg",
+                                    "path": null,
+                                    "size": 36.7,
+                                    "width": 600,
+                                    "height": 750,
+                                    "sizeInBytes": 36704
+                                },
+                                "thumbnail": {
+                                    "ext": ".jpeg",
+                                    "url": "/uploads/thumbnail_michelle_we_1791b76bde.jpeg",
+                                    "hash": "thumbnail_michelle_we_1791b76bde",
+                                    "mime": "image/jpeg",
+                                    "name": "thumbnail_michelle we.jpeg",
+                                    "path": null,
+                                    "size": 3.76,
+                                    "width": 125,
+                                    "height": 156,
+                                    "sizeInBytes": 3762
+                                }
+                            },
+                            "hash": "michelle_we_1791b76bde",
+                            "ext": ".jpeg",
+                            "mime": "image/jpeg",
+                            "size": 294.11,
+                            "url": "/uploads/michelle_we_1791b76bde.jpeg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-03-02T17:06:43.087Z",
+                            "updatedAt": "2025-03-02T23:19:07.216Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 14,
+            "attributes": {
+                "Name": " Ruthzee Louijeune",
+                "Role": "City Councilors",
+                "CampaignSiteLink": "https://www.ruthzeeforboston.com/",
+                "LinkedinLink": "https://www.linkedin.com/in/ruthzee-louijeune-0787981a8/",
+                "createdAt": "2025-04-22T14:50:52.783Z",
+                "updatedAt": "2025-04-22T14:51:19.724Z",
+                "publishedAt": "2025-04-22T14:51:19.711Z",
+                "Question1": null,
+                "Answer1": null,
+                "Question2": null,
+                "Answer2": null,
+                "Question3": null,
+                "Answer3": null,
+                "Question4": null,
+                "Answer4": null,
+                "Question5": null,
+                "Answer5": null,
+                "Question6": null,
+                "Answer6": null,
+                "Question7": null,
+                "Answer7": null,
+                "Question8": null,
+                "Answer8": null,
+                "Question9": null,
+                "Answer9": null,
+                "Question10": null,
+                "Answer10": null,
+                "District": "All District",
+                "Party": null,
+                "ElectionName": null,
+                "Headshot": {
+                    "data": {
+                        "id": 39,
+                        "attributes": {
+                            "name": "Screenshot 2025-04-22 at 10.49.58 AM.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 494,
+                            "height": 559,
+                            "formats": {
+                                "small": {
+                                    "ext": ".png",
+                                    "url": "/uploads/small_Screenshot_2025_04_22_at_10_49_58_AM_75567ad4e5.png",
+                                    "hash": "small_Screenshot_2025_04_22_at_10_49_58_AM_75567ad4e5",
+                                    "mime": "image/png",
+                                    "name": "small_Screenshot 2025-04-22 at 10.49.58 AM.png",
+                                    "path": null,
+                                    "size": 512.18,
+                                    "width": 442,
+                                    "height": 500,
+                                    "sizeInBytes": 512183
+                                },
+                                "thumbnail": {
+                                    "ext": ".png",
+                                    "url": "/uploads/thumbnail_Screenshot_2025_04_22_at_10_49_58_AM_75567ad4e5.png",
+                                    "hash": "thumbnail_Screenshot_2025_04_22_at_10_49_58_AM_75567ad4e5",
+                                    "mime": "image/png",
+                                    "name": "thumbnail_Screenshot 2025-04-22 at 10.49.58 AM.png",
+                                    "path": null,
+                                    "size": 56.73,
+                                    "width": 138,
+                                    "height": 156,
+                                    "sizeInBytes": 56731
+                                }
+                            },
+                            "hash": "Screenshot_2025_04_22_at_10_49_58_AM_75567ad4e5",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 143.41,
+                            "url": "/uploads/Screenshot_2025_04_22_at_10_49_58_AM_75567ad4e5.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-04-22T14:50:23.850Z",
+                            "updatedAt": "2025-04-22T14:50:23.850Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 15,
+            "attributes": {
+                "Name": "Erin Murphy",
+                "Role": "City Councilors",
+                "CampaignSiteLink": "https://erinforboston.com/",
+                "LinkedinLink": "https://www.linkedin.com/in/erin-murphy-b9028256/",
+                "createdAt": "2025-04-22T14:53:46.986Z",
+                "updatedAt": "2025-04-22T14:53:52.414Z",
+                "publishedAt": "2025-04-22T14:53:52.394Z",
+                "Question1": null,
+                "Answer1": null,
+                "Question2": null,
+                "Answer2": null,
+                "Question3": null,
+                "Answer3": null,
+                "Question4": null,
+                "Answer4": null,
+                "Question5": null,
+                "Answer5": null,
+                "Question6": null,
+                "Answer6": null,
+                "Question7": null,
+                "Answer7": null,
+                "Question8": null,
+                "Answer8": null,
+                "Question9": null,
+                "Answer9": null,
+                "Question10": null,
+                "Answer10": null,
+                "District": "All District",
+                "Party": null,
+                "ElectionName": null,
+                "Headshot": {
+                    "data": {
+                        "id": 40,
+                        "attributes": {
+                            "name": "Screenshot 2025-04-22 at 10.53.08 AM.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 375,
+                            "height": 379,
+                            "formats": {
+                                "thumbnail": {
+                                    "ext": ".png",
+                                    "url": "/uploads/thumbnail_Screenshot_2025_04_22_at_10_53_08_AM_0ce02989c9.png",
+                                    "hash": "thumbnail_Screenshot_2025_04_22_at_10_53_08_AM_0ce02989c9",
+                                    "mime": "image/png",
+                                    "name": "thumbnail_Screenshot 2025-04-22 at 10.53.08 AM.png",
+                                    "path": null,
+                                    "size": 57.35,
+                                    "width": 154,
+                                    "height": 156,
+                                    "sizeInBytes": 57349
+                                }
+                            },
+                            "hash": "Screenshot_2025_04_22_at_10_53_08_AM_0ce02989c9",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 62.75,
+                            "url": "/uploads/Screenshot_2025_04_22_at_10_53_08_AM_0ce02989c9.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-04-22T14:53:22.584Z",
+                            "updatedAt": "2025-04-22T14:53:22.584Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 16,
+            "attributes": {
+                "Name": "Henry Santana",
+                "Role": "City Councilor At Large",
+                "CampaignSiteLink": "https://www.henrysantana.com/",
+                "LinkedinLink": "https://www.linkedin.com/in/henry-santana-6b9070176/",
+                "createdAt": "2025-04-29T16:00:03.200Z",
+                "updatedAt": "2025-04-29T16:16:51.529Z",
+                "publishedAt": "2025-04-29T16:16:51.521Z",
+                "Question1": null,
+                "Answer1": null,
+                "Question2": null,
+                "Answer2": null,
+                "Question3": null,
+                "Answer3": null,
+                "Question4": null,
+                "Answer4": null,
+                "Question5": null,
+                "Answer5": null,
+                "Question6": null,
+                "Answer6": null,
+                "Question7": null,
+                "Answer7": null,
+                "Question8": null,
+                "Answer8": null,
+                "Question9": null,
+                "Answer9": null,
+                "Question10": null,
+                "Answer10": null,
+                "District": "All District",
+                "Party": null,
+                "ElectionName": null,
+                "Headshot": {
+                    "data": {
+                        "id": 41,
+                        "attributes": {
+                            "name": "HS_Cutout.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 2000,
+                            "height": 2431,
+                            "formats": {
+                                "large": {
+                                    "ext": ".png",
+                                    "url": "/uploads/large_HS_Cutout_cd0bed26b0.png",
+                                    "hash": "large_HS_Cutout_cd0bed26b0",
+                                    "mime": "image/png",
+                                    "name": "large_HS_Cutout.png",
+                                    "path": null,
+                                    "size": 1019.98,
+                                    "width": 823,
+                                    "height": 1000,
+                                    "sizeInBytes": 1019977
+                                },
+                                "small": {
+                                    "ext": ".png",
+                                    "url": "/uploads/small_HS_Cutout_cd0bed26b0.png",
+                                    "hash": "small_HS_Cutout_cd0bed26b0",
+                                    "mime": "image/png",
+                                    "name": "small_HS_Cutout.png",
+                                    "path": null,
+                                    "size": 267.92,
+                                    "width": 411,
+                                    "height": 500,
+                                    "sizeInBytes": 267915
+                                },
+                                "medium": {
+                                    "ext": ".png",
+                                    "url": "/uploads/medium_HS_Cutout_cd0bed26b0.png",
+                                    "hash": "medium_HS_Cutout_cd0bed26b0",
+                                    "mime": "image/png",
+                                    "name": "medium_HS_Cutout.png",
+                                    "path": null,
+                                    "size": 578.85,
+                                    "width": 617,
+                                    "height": 750,
+                                    "sizeInBytes": 578848
+                                },
+                                "thumbnail": {
+                                    "ext": ".png",
+                                    "url": "/uploads/thumbnail_HS_Cutout_cd0bed26b0.png",
+                                    "hash": "thumbnail_HS_Cutout_cd0bed26b0",
+                                    "mime": "image/png",
+                                    "name": "thumbnail_HS_Cutout.png",
+                                    "path": null,
+                                    "size": 31.18,
+                                    "width": 128,
+                                    "height": 156,
+                                    "sizeInBytes": 31184
+                                }
+                            },
+                            "hash": "HS_Cutout_cd0bed26b0",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 1431.68,
+                            "url": "/uploads/HS_Cutout_cd0bed26b0.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-04-29T15:59:26.446Z",
+                            "updatedAt": "2025-04-29T15:59:26.446Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 18,
+            "attributes": {
+                "Name": "Will Onuouha",
+                "Role": "City Councilor At Large",
+                "CampaignSiteLink": "https://www.willforboston.com/",
+                "LinkedinLink": "https://www.linkedin.com/in/will-onuoha-ba5b2489/",
+                "createdAt": "2025-04-29T16:19:33.844Z",
+                "updatedAt": "2025-04-29T16:19:36.411Z",
+                "publishedAt": "2025-04-29T16:19:36.401Z",
+                "Question1": null,
+                "Answer1": null,
+                "Question2": null,
+                "Answer2": null,
+                "Question3": null,
+                "Answer3": null,
+                "Question4": null,
+                "Answer4": null,
+                "Question5": null,
+                "Answer5": null,
+                "Question6": null,
+                "Answer6": null,
+                "Question7": null,
+                "Answer7": null,
+                "Question8": null,
+                "Answer8": null,
+                "Question9": null,
+                "Answer9": null,
+                "Question10": null,
+                "Answer10": null,
+                "District": "All District",
+                "Party": null,
+                "ElectionName": null,
+                "Headshot": {
+                    "data": {
+                        "id": 43,
+                        "attributes": {
+                            "name": "Screenshot 2025-04-29 at 12.19.07 PM.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 341,
+                            "height": 385,
+                            "formats": {
+                                "thumbnail": {
+                                    "ext": ".png",
+                                    "url": "/uploads/thumbnail_Screenshot_2025_04_29_at_12_19_07_PM_53f3da6f39.png",
+                                    "hash": "thumbnail_Screenshot_2025_04_29_at_12_19_07_PM_53f3da6f39",
+                                    "mime": "image/png",
+                                    "name": "thumbnail_Screenshot 2025-04-29 at 12.19.07 PM.png",
+                                    "path": null,
+                                    "size": 49.97,
+                                    "width": 138,
+                                    "height": 156,
+                                    "sizeInBytes": 49968
+                                }
+                            },
+                            "hash": "Screenshot_2025_04_29_at_12_19_07_PM_53f3da6f39",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 56.47,
+                            "url": "/uploads/Screenshot_2025_04_29_at_12_19_07_PM_53f3da6f39.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-04-29T16:19:29.031Z",
+                            "updatedAt": "2025-04-29T16:19:29.031Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 17,
+            "attributes": {
+                "Name": "Marvin Dee Mathelier",
+                "Role": "City Councilor At Large",
+                "CampaignSiteLink": "https://www.marvinforboston.com/",
+                "LinkedinLink": "https://www.linkedin.com/in/marvinmathelier/",
+                "createdAt": "2025-04-29T16:10:43.559Z",
+                "updatedAt": "2025-04-29T16:14:23.826Z",
+                "publishedAt": "2025-04-29T16:14:23.818Z",
+                "Question1": null,
+                "Answer1": null,
+                "Question2": null,
+                "Answer2": null,
+                "Question3": null,
+                "Answer3": null,
+                "Question4": null,
+                "Answer4": null,
+                "Question5": null,
+                "Answer5": null,
+                "Question6": null,
+                "Answer6": null,
+                "Question7": null,
+                "Answer7": null,
+                "Question8": null,
+                "Answer8": null,
+                "Question9": null,
+                "Answer9": null,
+                "Question10": null,
+                "Answer10": null,
+                "District": "All District",
+                "Party": null,
+                "ElectionName": null,
+                "Headshot": {
+                    "data": {
+                        "id": 42,
+                        "attributes": {
+                            "name": "Screenshot 2025-04-29 at 12.11.31 PM.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 446,
+                            "height": 448,
+                            "formats": {
+                                "thumbnail": {
+                                    "ext": ".png",
+                                    "url": "/uploads/thumbnail_Screenshot_2025_04_29_at_12_11_31_PM_eced0b2da9.png",
+                                    "hash": "thumbnail_Screenshot_2025_04_29_at_12_11_31_PM_eced0b2da9",
+                                    "mime": "image/png",
+                                    "name": "thumbnail_Screenshot 2025-04-29 at 12.11.31 PM.png",
+                                    "path": null,
+                                    "size": 67,
+                                    "width": 155,
+                                    "height": 156,
+                                    "sizeInBytes": 67004
+                                }
+                            },
+                            "hash": "Screenshot_2025_04_29_at_12_11_31_PM_eced0b2da9",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 121.88,
+                            "url": "/uploads/Screenshot_2025_04_29_at_12_11_31_PM_eced0b2da9.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2025-04-29T16:12:00.813Z",
+                            "updatedAt": "2025-04-29T16:12:00.813Z"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 8
+        }
+    }
+}

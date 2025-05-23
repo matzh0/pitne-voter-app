@@ -59,7 +59,8 @@ interface QuestionsAndAnswers {
 const getStrapiMedia = (url: string | undefined | null) => {
   if (!url) return null;
   if (url.startsWith('http')) return url;
-  const baseUrl = process.env.NEXT_PUBLIC_STRAPI_API_URL || 'https://pitne-voter-app-production.up.railway.app';
+  //const baseUrl = process.env.NEXT_PUBLIC_STRAPI_API_URL || 'https://pitne-voter-app-production.up.railway.app';
+  const baseUrl = process.env.NEXT_PUBLIC_STRAPI_API_URL || 'http://localhost:1337';
   return `${baseUrl}${url}`;
 };
 
@@ -209,6 +210,7 @@ export default function Candidate() {
                         alt="LinkedIn Link"
                         width={32}
                         height={32}
+                        style={{width:'auto', height: 'auto'}}
                       />
                     </a>
                   )}

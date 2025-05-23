@@ -77,7 +77,7 @@ Before Starting, ensure the following is installed:
     ```bash
     cd strapi 
     npm install
-    npm run dev
+    npm run develop
     ```
    
 Note: You must run `client`, `server`, and `strapi` in separate terminal windows concurrently for full local functionality.
@@ -99,6 +99,12 @@ MAILCHIMP_REGION = your_mailchimp_region
 NEXT_PUBLIC_EXPRESS_ENV=local
 NEXT_PUBLIC_STRAPI_ENV=local
 ```
+How to get your_mailchimp_region from your_mailchimp_api_key_here?
+For example:
+MAILCHIMP_API_KEY = d701a5aba3b142ffa9ffcba9be50f30c-us14
+MAILCHIMP_REGION is your MAILCHIMP_API_KEY's part of after"-"
+So MAILCHIMP_REGION = us14
+
 Note: Using the keyword local uses the local Express or Strapi server started earlier. Leaving the value blank or using any other value uses the deployment url. The local+deployed urls are specified in common/index.tsx
 
 This API key is for enabling Mailchimp, a service that allows a site admin to collect email addresses input by site users

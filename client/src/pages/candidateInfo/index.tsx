@@ -123,14 +123,16 @@ export default function CandidateInfo() {
     useEffect(() => {
         const fetchCandidateData = async () => {
             try {
-                const response = await fetch('https://pitne-voter-app-production.up.railway.app/api/candidates?populate=Headshot,party,elections');
+                // const response = await fetch('https://pitne-voter-app-production.up.railway.app/api/candidates?populate=Headshot,party,elections');
+                const response = await fetch('http://localhost:1337/api/candidates?populate=Headshot,party,elections');
 
                 if (response.ok) {
                     const data = await response.json();
                     if (data.data && data.data.length > 0) {
                         const fetchedCandidates: Candidate[] = data.data.map((candidate: any) => {
                             const headshotUrl = candidate.attributes.Headshot?.data?.attributes?.url
-                                ? `https://pitne-voter-app-production.up.railway.app${candidate.attributes.Headshot.data.attributes.url}`
+                                ? `http://localhost:1337${candidate.attributes.Headshot.data.attributes.url}`
+                                //? `https://pitne-voter-app-production.up.railway.app${candidate.attributes.Headshot.data.attributes.url}`
                                 : undefined;
 
                             // Correctly extract Party, ElectionName and Office based on API response structure

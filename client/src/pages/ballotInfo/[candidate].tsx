@@ -174,7 +174,9 @@ export default function Candidate() {
                                             <div
                                                 className="bg-center bg-no-repeat bg-cover rounded-full h-64 w-64 lg:h-80 lg:w-80 mx-6"
                                                 style={{
-                                                    backgroundImage: `url(https://pitne-voter-app-production.up.railway.app${candidateData?.Headshot.data.attributes.url})`,
+                                                    //backgroundImage: `url(https://pitne-voter-app-production.up.railway.app${candidateData?.Headshot.data.attributes.url})`,
+                                                    backgroundImage: `url(http://localhost:1337/${candidateData?.Headshot.data.attributes.url})`,
+                                                    //backgroundImage: `url(http://localhost:1337/uploads/Xingxing_Xiao_image_fe33ce7c35.jpg)`
                                                 }}
                                             ></div>
                                         </div>
