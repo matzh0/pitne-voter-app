@@ -450,3 +450,25 @@ Access our deployed dev branch website: https://dev--bostonvoter.up.railway.app/
 
 <img width="1440" alt="aboutUs" src="https://github.com/user-attachments/assets/452eef2b-2382-4c47-ba96-5a51d4bc0ec7" />
 
+
+
+# Use Clerk to do the authentication
+1. Apply for a Clerk account
+2. Navegate to dashboard，Create application, initial a APP name; choose the third Sign in, such as google, Linkedln. click a button - create an application
+3. Install @clerk/nextjs
+```bash
+  npm install @clerk/nextjs
+```
+4. Set Clerk API key.  Add these keys to your .env or create the file if it doesn't exist. Retrieve these keys anytime from the API keys page.
+5. Update middleware.ts   
+Update your middleware file, or create one at the root of your project, or the src/ directory if you're using a src/ directory structure. The `clerkMiddleware` helper enables authentication and is where you'll configure your protected routes.
+6. Add ClerkProvider to your app.  The `ClerkProvider` component provides Clerk's authentication context to your app. It's recommended to wrap your entire app at the entry point with `ClerkProvider` to make authentication globally accessible. I put `ClerkProvider` in Layout.tsx and _app.tsx
+
+7. create sign-in/sign-up page.
+8. Run this APP, visit app's homepage at http://localhost:3000
+
+# How to run this app
+1. Pull auth branch to local
+2. Navigate to client folder, and install clerk/nextjs `npm install @clerk/nextjs`
+3. run this app `npm run dev`
+4. open http://localhost:3000, you should sign-in or sign-up, then you can use this app

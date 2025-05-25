@@ -1,38 +1,54 @@
 // pages/_app.tsx
-import 'tailwindcss/tailwind.css';
-import '@/app/globals.css';
-import NavBar from '../components/nav/NavBar'; // Import the NavBar component
-import NewsletterForm from '../components/nav/NewsletterForm'; // Import the NewsletterForm component
-import CookieConsent from '../components/cookieConsent'; // Import the CookieConsent component
-import { AppProps } from 'next/app'; // Import AppProps from Next.js
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import "tailwindcss/tailwind.css";
+import "@/app/globals.css";
+import NavBar from "../components/nav/NavBar"; // Import the NavBar component
+import NewsletterForm from "../components/nav/NewsletterForm"; // Import the NewsletterForm component
+import CookieConsent from "../components/cookieConsent"; // Import the CookieConsent component
+import { AppProps } from "next/app"; // Import AppProps from Next.js
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import {
+  ClerkProvider,
+  SignInButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
 
 function MyApp({ Component, pageProps }: AppProps) {
-    const router = useRouter();
+  const router = useRouter();
 
-    // Scroll to top on route change
-    useEffect(() => {
-        const handleRouteChange = () => {
-            window.scrollTo(0, 0);
-        };
+  // Scroll to top on route change
+  useEffect(() => {
+    const handleRouteChange = () => {
+      window.scrollTo(0, 0);
+    };
 
-        router.events.on('routeChangeComplete', handleRouteChange);
-        return () => {
-            router.events.off('routeChangeComplete', handleRouteChange);
-        };
-    }, [router.events]);
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
-    return (
-        <>
-            <NavBar />
-            <div className=' '>
-                <Component {...pageProps} />
-            </div>
-            <NewsletterForm />
-            <CookieConsent /> {/* Add the CookieConsent component */}
-        </>
-    );
+  return (
+    <>
+      <NavBar />
+      <ClerkProvider>
+        <header className="flex justify-end items-center p-4 gap-4 h-16 mt-20">
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+        </header>
+      </ClerkProvider>
+      <div className=" ">
+        <Component {...pageProps} />
+      </div>
+      
+      <NewsletterForm />
+      <CookieConsent /> {/* Add the CookieConsent component */}
+    </>
+  );
 }
 
 export default MyApp;
